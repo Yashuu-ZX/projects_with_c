@@ -57,7 +57,7 @@ int main()
     }
     printf("-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-GAME ENDS-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-\n\n");
     printf("YOUR SCORE  |  COMPUTER SCORE\n");
-    printf("     %d      |        %d      \n",score_man,score_comp);
+    printf("     %d     |        %d      \n",score_man,score_comp);
     if (score_man>score_comp)
     printf("YOU WON!!\n");
     else if (score_comp>score_man)
